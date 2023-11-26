@@ -1,0 +1,7 @@
+A.
+> ./pgrm < inFile.txt 1> pariFile.txt 2> dispariFile.txt
+
+B.
+> ls -a /home/ | wc -w
+> cat lab01.txt lab02.txt lab03.txt | wc --bytes
+> ps -U root | wc --lines
