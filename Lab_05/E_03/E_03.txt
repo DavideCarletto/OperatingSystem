@@ -1,0 +1,23 @@
+1
+find / -name "*.exe" -executable -size +1k
+
+2
+find / -name "*.c" -size 100c
+
+3
+find . -type f -user davide -regextype posix-extended -regex "(.*A.*a.*)|(.*a.*A.*)" -exec tail -n 3 '{}' \;
+
+4
+find / -mindepth 3 -maxdepth 5 -user davide -size 250c -regextype posix-extended -regex ".*\/...." -exec wc -c \{} \;
+
+5
+find / -regex ".*A.*zzz.*\...." -exec tar -zcvf '{}'.tar.gz '{}' \;
+
+6
+find / -type d -name "bin" -exec ls '{}' \;
+
+7
+find / -name "*.c" ! -user davide
+
+8
+find / -maxdepth 1 -user scanzio -exec chmod go-xrw '{}' \;

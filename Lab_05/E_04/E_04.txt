@@ -1,0 +1,29 @@
+1
+cat lab05e04in.txt | sort -k 1 -r -n
+
+2
+cat lab05e04in.txt | sort -k 2
+
+3
+cat lab05e04in.txt | grep "2011/2012"
+
+4
+cat lab05e04in.txt | grep "INF1T3" | sort -k 1 -n
+
+5
+cat lab05e04in.txt | grep -e "^[0-9]*2\>" -e "^[0-9]*4\>" | sort -k 1 -n
+
+6
+cat lab05e04in.txt | grep "TLC1T3" | grep "Da frequentare" | sort -k 1 -n -r
+
+7
+cat lab05e04in.txt | grep -e "A..A"
+
+8
+cat lab05e04in.txt | grep "A..A"  | grep -v "\<A" | grep -v "A\>"
+
+9
+cat lab05e04in.txt | cut -f 1 -d " " | tr -d 0 | tr 8 1 | sort -n | uniq
+
+10
+cat lab05e04in.txt | cut -f 1 -d " " | tr -d 0 | tr 8 1 | sort -n | uniq -d | wc
