@@ -1,0 +1,3 @@
+Vettore ordinato all' 1-esimo passo: 16 78 87 94 
+Vettore ordinato all' 2-esimo passo: 16 22 28 50 63 78 87 87 93 94 
+Vettore ordinato all' 3-esimo passo: 16 22 28 50 60 63 78 87 87 93 94 
