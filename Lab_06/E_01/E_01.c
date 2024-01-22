@@ -40,7 +40,7 @@ void printBinary(int n, int* vet){
                     wait(NULL);
                     wait(NULL);
 
-                    exit(1);
+                    exit(0);
                 }
             }
        }
